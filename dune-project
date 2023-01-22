@@ -14,4 +14,6 @@
   (name i2c-unix)
   (synopsis "Bindings to i2c-dev, the Linux i2c bus interface")
   (description "Bindings to i2c-dev, the Linux i2c bus interface")
-  (depends base-unix stdint))
+  (depends
+    base-unix
+    (stdint (>= 0.7.1))))
