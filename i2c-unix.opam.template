@@ -1,0 +1,5 @@
+depexts: [
+  ["i2c-tools"] {os-family = "arch"}
+  ["libi2c-dev"] {os-family = "debian"}
+]
+available: [os = "linux"]
