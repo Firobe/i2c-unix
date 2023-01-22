@@ -11,6 +11,7 @@ bug-reports: "https://github.com/Firobe/i2c-unix/issues"
 depends: [
   "dune" {>= "3.4"}
   "base-unix"
+  "ctypes" {>= "0.19.1"}
   "stdint" {>= "0.7.1"}
   "odoc" {with-doc}
 ]

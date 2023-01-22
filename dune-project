@@ -16,4 +16,5 @@
   (description "Bindings to i2c-dev, the Linux i2c bus interface")
   (depends
     base-unix
+    (ctypes (>= 0.19.1))
     (stdint (>= 0.7.1))))
