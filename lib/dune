@@ -6,9 +6,10 @@
  (ctypes
   (external_library_name libi2c)
   (headers
-   (preamble %{read:set_address.h}))
+   (include "set_address.h"))
   (build_flags_resolver
    (vendored
+    (c_flags :standard "-I.")
     (c_library_flags :standard "-li2c")))
   (type_description
    (instance Type)

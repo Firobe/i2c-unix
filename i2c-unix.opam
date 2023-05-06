@@ -9,7 +9,7 @@ license: "MIT"
 homepage: "https://github.com/Firobe/i2c-unix"
 bug-reports: "https://github.com/Firobe/i2c-unix/issues"
 depends: [
-  "dune" {>= "3.4"}
+  "dune" {>= "3.7"}
   "base-unix"
   "ctypes" {>= "0.19.1"}
   "stdint" {>= "0.7.1"}
